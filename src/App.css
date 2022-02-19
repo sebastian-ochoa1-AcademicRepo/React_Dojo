@@ -1,0 +1,16 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#external-events {
+  height: 100vh;
+  z-index: 2;
+  padding: 0 10px;
+  overflow-y: scroll;
+}
+
+#external-events .fc-event {
+  margin: 1em 0;
+  cursor: move;
+}
